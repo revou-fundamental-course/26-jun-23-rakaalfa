@@ -1,0 +1,460 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+nav{
+  display: flex;
+  position: fixed;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  border-bottom: 1px solid ;
+  border-color: black;
+
+  
+}
+nav img{
+  display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px outset rgb(87, 82, 82);
+    margin-left: 30px;
+    margin-top: 7px;
+    justify-content: flex-start;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  padding: 25px;
+  width: 100%;
+  justify-content: flex-end;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  background-color: rgb(49, 49, 49);
+  color: aliceblue;
+}
+#Home{
+  margin-top: 100px;
+}
+.Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.Home h1{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(31, 31, 31);
+}
+.Home p{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(126, 126, 126);
+}
+.tengah{
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  gap: 30px;
+}
+.gambar img{
+  object-fit: contain;
+  width: 100%;
+}
+.gambar p{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: rgb(126, 126, 126);
+  font-size: 10x;
+}
+.abc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 50px;
+}
+.abc-img{
+  width: 70px;
+  color: rgb(139, 139, 139);
+}
+.abc-text i{
+  color: rgb(139, 139, 139);
+  font-size: 16px;
+  padding: 5px;
+}
+.about p{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+}
+.one{
+  display: flex;
+  align-items: center;
+}
+.one h3{
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #EEEE;
+}
+.one p{
+  color: rgb(165, 165, 165);
+  font-size: 18px;
+  font-weight: normal;
+}
+.form{
+  background-color: #dddddd;
+  border-radius: 8px;
+  padding: 80px;
+  width: 55%;
+}
+.form h2{
+  display: flex;
+  font-size: 40px;
+  color: rgb(31, 31, 31);
+}
+.form p{
+  display: flex;
+  color: rgb(121, 121, 121);
+  font-size: 15px;
+  margin-top: 15px;
+}
+.form-label{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.form-label label{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+.form-label input{
+  font-size: 15px;
+  margin-top: 18px;
+  padding: 19px;
+  border-color: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+.form-label select{
+  font-size: 15px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  padding: 19px;
+  border-color: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+.form-submit input{
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 18px;
+  border-color: rgb(150, 150, 150);
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+}
+.title{
+  padding: 10vh 0 10vh 0;
+  background-color: #e0e0e0;
+  margin-top: 30px;
+}
+.title h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(77, 77, 77);
+}
+.packages{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  padding: 80px;
+}
+.packages>.package{
+  flex: 1 1 30%;
+}
+.package h1{
+  font-size: 35px;
+  color: #2c2c2c;
+}
+.package p{
+  text-align: justify;
+  padding: 20px 0 0 0;
+  color: #5c5c5c;
+}
+.contact_content{
+  padding: 100px;
+
+}
+.contact_head{
+  text-align: center;
+}
+.contact_head h1{
+  font-size: 40px;
+  color: rgb(71, 71, 71);
+  padding: 0 0 20px 0;
+}
+.contact_head p{
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+}
+.contact_button{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contact_button a{
+  color: rgb(226, 226, 226);
+  background-color: rgb(44, 44, 44);
+  border: 5px solid rgb(230, 230, 230);
+  padding: 20px 100px 20px 100px;
+  font-size: large;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+.contact_button a:hover{
+  color: rgb(43, 43, 43);
+  background-color: rgb(221, 221, 221);
+  border: 5px solid rgb(59, 59, 59);
+}
+footer{
+  padding: 50px;
+  text-align: center;
+}
+.footeer_content{
+  text-align: center;
+}
+.footer_title{
+  font-size: 20px;
+}
+.footer_child {
+  padding: 20px 0 20px 0;
+  font-size: 25px;
+  color: rgb(139, 139, 139);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer_end {
+  font-size: 25px;
+  color: rgb(139, 139, 139);
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 1px 2px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 2;
+}
+
+.dot-m {
+  z-index: 2;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.active {
+  background-color: #292929;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+  /* CONTENT */
+  .Home h1 {
+      font-size: 35px;
+  }
+
+  .Home p {
+      font-size: 15px;
+  }
+
+  .tengah {
+      flex-direction: column;
+  }
+
+  .title h1 {
+      font-size: 35px;
+  }
+
+  .contact_head h1 {
+      font-size: 35px;
+      color: #222831;
+      padding: 0 0 20px 0;
+  }
+
+  .contact_head p {
+      font-size: 20px;
+  }
+
+  .contact_button a {
+      padding: 30px;
+      font-size: 20px;
+  }
+
+  .footer_title h1 {
+      font-size: 35px;
+  }
+
+  .footer_child {
+      font-size: 20px;
+  }
+
+  .footer_end {
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  nav img{
+     width: 40px;
+     height: 40px;
+     margin-left: 5px;
+      margin-top: 5px;
+  }
+  nav ul li a{
+     font-size: 10px;
+  }
+  #Home{
+     margin-top: 10px;
+  }
+  .Home h1{
+      font-size: 20px;
+  }
+  .Home p{
+     font-size: 10px;
+     padding: 5px;
+  }
+  .gambar p{
+    font-size: 10px;
+  }
+  .abc{
+      margin: 10px;
+  }
+  .abc-img{
+     width: 30px;
+     height: 30px;
+  }
+  .abc-text h3{
+      font-size: 12px;
+  }
+  .abc-text i{
+      font-size: 10px;
+  }
+  .about p {
+      font-size: 15px;
+  }
+  .one h3{
+      width: 10px;
+      height: 10px;
+      font-size: 15px;
+  }
+  .one p {
+      font-size: 12px;
+  }
+
+  nav ul {
+      padding: 15px 10px 15px 10px;
+  }
+
+  .content {
+      margin: 0 20px 0 20px;
+  }
+
+  .form {
+      width: 70%;
+      padding: 50px 40px 80px 40px;
+  }
+  .form h2{
+    font-size: 21px;
+  }
+  .form p{
+    font-size: 13px;
+  }
+  .form-label{
+    margin-top: 20px;
+  }
+  .form-label label{
+    font-size: 16px;
+  }
+  .form-label input{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .form-label select{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .form-submit input{
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .packages {
+      padding: 60px 20px 100px 20px;
+  }
+  .package h1{
+      font-size: 20px;
+  }
+    
+  .package p {
+      font-size: 15px;
+  }
+
+  .packages>.package {
+      flex: 1 1 100%;
+  }
+
+  .contact_content {
+      padding: 100px 20px 100px 20px;
+  }
+  .contact_head h1{
+      font-size: 20px;
+  }
+  .contact_head p{
+      font-size: 15px;
+  }
+  .contact_button a {
+      color: #EEEEEE;
+      background-color: #222831;
+      border: 2px solid #222831;
+      padding: 20px;
+      font-size: 20px;
+  }
+}
+
